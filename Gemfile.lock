@@ -233,6 +233,7 @@ GEM
     omniauth-oauth2 (1.4.0)
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
+    open-uri-cached (0.0.5)
     paper_trail (5.2.0)
       activerecord (>= 3.0, < 6.0)
       activesupport (>= 3.0, < 6.0)
@@ -460,8 +461,10 @@ DEPENDENCIES
   mdl (= 0.3.1)
   minitest-rails-capybara (= 2.1.2)
   minitest-retry (= 0.1.5)
+  nokogiri (~> 1.6, >= 1.6.8)
   octokit (= 4.3.0)
   omniauth-github (= 1.1.2)
+  open-uri-cached (~> 0.0.5)
   paper_trail (= 5.2.0)
   pg (= 0.18.4)
   pg_search (= 1.0.6)
@@ -498,4 +501,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.3
+   1.12.5

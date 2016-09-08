@@ -18,8 +18,10 @@ gem 'jbuilder', '2.6.0'
 gem 'jquery-rails', '4.2.1' # Javascript jQuery library (for Rails)
 gem 'jquery-ui-rails', '5.0.5' # Javascript jQueryUI library (for Rails)
 gem 'redcarpet', '3.3.4' # Process markdown in form textareas (justifications)
+gem 'nokogiri', '~> 1.6', '>= 1.6.8'
 gem 'octokit', '4.3.0' # GitHub's official Ruby API
 gem 'omniauth-github', '1.1.2' # Authentication to GitHub (get project info)
+gem 'open-uri-cached', '~> 0.0.5'
 gem 'paper_trail', '5.2.0' # Record previous versions of project data
 gem 'pg', '0.18.4' # PostgreSQL database, used for data storage
 gem 'pg_search', '1.0.6' # PostgreSQL full-text search
